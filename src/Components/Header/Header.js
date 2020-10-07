@@ -14,7 +14,7 @@ const Header = () => {
                     <Navbar.Brand href="#home"><Link to='/'><img src={logo} alt="" /></Link></Navbar.Brand>
                     <Nav className="m-auto menu">
                         <Nav><Link to='/'>Home</Link></Nav>
-                        <Nav><Link to='/'>Donation</Link></Nav>
+                        <Nav><Link to='/inventory'>Donation</Link></Nav>
                         <Nav><Link>About</Link></Nav>
                         <Nav><Link to='/events'>Events</Link></Nav>
                         <Nav><Link>{loggedInUser.name}</Link></Nav>

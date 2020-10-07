@@ -2,14 +2,14 @@ import React from 'react';
 import img from '../../Components/images/studyGroup.png'
 
 const EventsDetails = (props) => {
-    const {title, date, _id} = props.work;
-    const handleCancel = (id) => {
-        fetch(`http://localhost:4000/createWork/${id}`, {
-            method: 'DELETE'
-        })
-            .then(res => res.json())
-            .then(result => { })
-    }
+    const {title, date} = props.work;
+    // const handleCancel = (id) => {
+    //     fetch(`http://localhost:4000/createWork/${id}`, {
+    //         method: 'DELETE'
+    //     })
+    //         .then(res => res.json())
+    //         .then(result => { })
+    // }
 
     return (
         <div className='col-md-6'>
@@ -20,7 +20,7 @@ const EventsDetails = (props) => {
                <div className="text">
                     <h4>{title}</h4>
                     <p>{date}</p>
-                    <button onClick={handleCancel(_id)}>Cancel</button>
+                    <button>Cancel</button>
                </div>
            </div>
         </div>

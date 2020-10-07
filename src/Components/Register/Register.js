@@ -51,11 +51,11 @@ const Register = () => {
                         onChange={handleDate} name="date" id="date" ref={register({ required: true })} placeholder='Your Date' />
                     {errors.address && <span className="error">Address is required</span>}
 
-                    < input name="title" defaultValue={title} ref={register({ required: true })} placeholder='Title' />
-                    {errors.phone && <span className="error">Phone Number is required</span>}
+                    < input name="country" ref={register({ required: true })} placeholder='Desicription' />
+                    {errors.country && <span className="error">Desicription is required</span>}
 
-                    < input name="country" ref={register({ required: true })} placeholder='Your Country Name' />
-                    {errors.country && <span className="error">Country Name is required</span>}
+                    < input name="title" defaultValue={title} ref={register({ required: true })} placeholder='Organize books at the library' />
+                    {errors.phone && <span className="error">Organize books at the library is required</span>}
 
                     <Link to='/events'><input onClick={onSubmit} type="submit" /></Link>
                 </div>

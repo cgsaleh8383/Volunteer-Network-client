@@ -3,7 +3,7 @@ import { category } from '../../fakeData/category';
 
 const Inventory = () => {
     const handleAddProduct = () => {
-        fetch('http://localhost:4000/addWork ', {
+        fetch('http://localhost:4000/addCategory ', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
