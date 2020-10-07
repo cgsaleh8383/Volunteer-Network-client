@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: relative;
+    
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #000000
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #423e3ed7
+}
+.header .container img{
+    width: 202.81px;
+    height: 60px;
+} 
+
+ .header .menu a{
+     margin: 0 15px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #000000
+ }
+
+ .register_btn{
+     margin: 0 5px;
+     padding: 8px 30px;
+ }

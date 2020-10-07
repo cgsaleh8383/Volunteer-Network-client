@@ -1,0 +1,38 @@
+.google_SingIn{
+    position: absolute;
+    width: 570px;
+    height: 457px;
+    left: 435px;
+    top: 171px;
+
+    background: #FFFFFF;
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.google_SingIn_content{
+    margin-top: 150px
+}
+.google_SingIn_content h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 29px;
+    color: #000000;
+}
+.google_SingIn_content p{
+    margin-top: 20px;
+}
+
+.google_SingIn_content button{
+    width: 457px;
+    height: 51px;
+    margin-top: 25px;
+    font-weight: bold;
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 57px;
+}

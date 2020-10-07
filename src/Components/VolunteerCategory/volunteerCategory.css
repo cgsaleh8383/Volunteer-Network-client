@@ -1,0 +1,34 @@
+.text-center img{
+    width: 290px;
+    height: 320px;
+    position: relative;
+    padding: 10px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+.text-center h4{
+    color: #dddddd;
+    font-size: 20px
+}
+
+.text_title{
+     position: absolute;
+     width: 290px;
+     height: 320px;
+     border-radius: 18px;
+     top: 70%;
+     left: 5.5%;
+     padding: 10px;
+     background: #fff;
+     -webkit-border-radius: 18px;
+     -moz-border-radius: 18px;
+     -ms-border-radius: 18px;
+     -o-border-radius: 18px;
+}
+
+.border{
+
+}

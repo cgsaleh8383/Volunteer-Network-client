@@ -1,0 +1,29 @@
+.ship_from{
+    position: absolute;
+    width: 570px;
+    height: 591px;
+    left: 435px;
+    top: 130px;
+
+    background: #FFFFFF;
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.ship_from input{
+    width: 470px;
+    height: 50px;
+    margin: 30px 50px;
+    padding: 10px;
+    border-radius: 50px;
+    display: block;
+    border: 1px solid #d3d3d3;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.ship_from a{
+    text-decoration: none;
+}
