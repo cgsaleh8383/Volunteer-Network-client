@@ -24,7 +24,7 @@ const Register = () => {
 
     const onSubmit = (data) => {
         const orderDetails = { ...loggedInUser, ...selected}
-        fetch('http://localhost:4000/addWork', {
+        fetch('https://floating-earth-05223.herokuapp.com/addWork', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(orderDetails)

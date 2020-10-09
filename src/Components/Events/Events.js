@@ -7,7 +7,7 @@ const Events = () => {
     const [event, setEvent] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:4000/createWork?email='+loggedInUser.email)
+        fetch('https://floating-earth-05223.herokuapp.com/createWork?email='+loggedInUser.email)
         .then(res => res.json())
         .then(data => setEvent(data));
     }, [])
